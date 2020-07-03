@@ -1,0 +1,32 @@
+{
+  "name": "reagent-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "apollo-server-express": "^2.15.0",
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0-rc.2",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.13",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts --exec ts-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
